@@ -1,14 +1,15 @@
 <html>
 <head>
    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="index2.js"></script> 
      
 <link rel="stylesheet" href="css/style.css" />
-<script src="index.js"></script>
 
 </head>
 <body>
@@ -18,13 +19,17 @@
             <h1 class="heading" style="margin-bottom: 0;color: white;float: left;font-family: Century  Gothic;">
                  Mi Carrito
             </h1>
-            <div class="btn btn-warning" id="mycart" style=" margin-right:10px;cursor:pointer;display:inline-block;float:right;margin-top: 10px;">
+            <div class="btn btn-warning" id="vaciar" style=" margin-right:10px;cursor:pointer;display:inline-block;float:right;margin-top: 10px;">Vaciar carrito
+            </div>
+            <div class="btn btn-warning" id="mycart" style=" margin-right:10px;cursor:pointer;display:inline-block;float:right;margin-top: 10px;"><a href="Tienda.html">Volver</a>
             </div>
         </div>
         <div class="container">
             <table class="table table-hover">
-                <tbody id="myCartData" >                       
+                <tbody id="myCartData" > 
+                    <tr><td>ID</td><td>Nombre</td><td>Precio</td><td>Cantidad</td><td>Total</td></tr>      
                 </tbody>
+                    
                 <tfoot>
                 </tfoot>
             </table>
