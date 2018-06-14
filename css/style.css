@@ -101,6 +101,7 @@ h1.heading {
     background: #f0ad4e;
 }
 .carbox-title {
+ color: #000;
   margin-top:0px;
   font-weight: 700;
   font-size: 1.65em;
@@ -148,7 +149,7 @@ h1.heading {
 
 .productos {
     margin-bottom: 0;
-    color: white;
+    color: black;
     float: left;
     font-family: Century  Gothic; 
 }
